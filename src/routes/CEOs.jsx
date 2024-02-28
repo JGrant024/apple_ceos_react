@@ -10,6 +10,7 @@ export async function loader() {
 const CEOs = () => {
   const { data } = useLoaderData();
 
+  
   return (
     <>
       <h2>CEO List</h2>
