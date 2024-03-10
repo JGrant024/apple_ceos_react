@@ -11,7 +11,7 @@ const SingleCeo = () => {
   const { data } = useLoaderData();
   return (
     <p>
-      {data.name} became the CEO of Apple in {data.year}
+      {data.name} became the CEO of Apple in {data.year_served}
     </p>
   );
 };
